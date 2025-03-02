@@ -1,71 +1,71 @@
 # Evermos Internship E-Commerce
 ![E-Commerce API Diagram](https://github.com/user-attachments/assets/f3f5d81f-065c-4256-89e6-935076b630bf)
 
-## 📌 Deskripsi Proyek
-Evermos Internship E-Commerce adalah proyek yang dikembangkan sebagai bagian dari program internship di Evermos. Proyek ini bertujuan untuk membangun sistem e-commerce yang efisien dengan backend berbasis **Golang**. Repository ini berisi berbagai komponen utama dari sistem, termasuk model database, API endpoints, middleware, dan layanan lainnya.
+## 📌 Project Description
+Evermos Internship E-Commerce is a project developed as part of the internship program at Evermos. The goal of this project is to build an efficient e-commerce system with a **Golang**-based backend. This repository contains the core components of the system, including database models, API endpoints, middleware, and other services.
 
-## 🚀 Teknologi yang Digunakan
-- **Golang** - Bahasa pemrograman utama
-- **MySQL** - Database untuk penyimpanan data
-- **Fiber** - Framework untuk membangun REST API
-- **JWT** - Authentication
+## 🚀 Technologies Used
+- **Golang** - Primary programming language
+- **MySQL** - Database for data storage
+- **Fiber** - Framework for building REST APIs
+- **JWT** - Authentication mechanism
 - **Docker** - Containerization
-- **GORM** - ORM untuk Golang
+- **GORM** - ORM for Golang
 
-## 📂 Struktur Direktori
+## 📂 Directory Structure
 ```
-📦 evermos_internship_excommerce
-├── 📂 config          # Konfigurasi aplikasi
-├── 📂 configs         # Pengaturan tambahan
-├── 📂 database        # Skema database dan koneksi
-├── 📂 docs            # Dokumentasi API
-├── 📂 exceptions      # Handler untuk error
-├── 📂 handlers        # Controller API
-├── 📂 middleware      # Middleware seperti autentikasi
-├── 📂 migrations      # File migrasi database
-├── 📂 models          # Struktur data dan entity
-├── 📂 repositories    # Layer akses database
-├── 📂 services        # Logika bisnis aplikasi
-├── 📂 uploads         # Direktori untuk menyimpan file
+📦 evermos_internship_ecommerce
+├── 📂 config          # Application configuration
+├── 📂 configs         # Additional settings
+├── 📂 database        # Database schema and connections
+├── 📂 docs            # API documentation
+├── 📂 exceptions      # Error handlers
+├── 📂 handlers        # API controllers
+├── 📂 middleware      # Middleware such as authentication
+├── 📂 migrations      # Database migration files
+├── 📂 models          # Data structures and entities
+├── 📂 repositories    # Database access layer
+├── 📂 services        # Business logic layer
+├── 📂 uploads         # Directory for file storage
 ├── 📂 utils           # Helper functions
-├── .env              # File konfigurasi environment
-├── LICENSE           # Lisensi proyek (GPL-3.0)
-├── go.mod            # Dependencies Golang
-├── go.sum            # Checksum dependencies
-└── main.go           # Entry point aplikasi
+├── .env              # Environment configuration file
+├── LICENSE           # Project license (GPL-3.0)
+├── go.mod            # Golang dependencies
+├── go.sum            # Dependency checksums
+└── main.go           # Application entry point
 ```
 
-## 🔧 Instalasi & Setup
-1. **Install Bahasa Golang**
-   [Panduan Instalasi](https://go.dev/doc/install)
-2. **Install Framework Fiber**
-   [Panduan Instalasi](https://docs.gofiber.io/)
-3. **Install GORM**
-   [Panduan Instalasi](https://gorm.io/)
-4. **Install MySQL**
-   [Panduan Instalasi](https://dev.mysql.com/downloads/installer/)
-5. **Install Postman** (Untuk uji API)
+## 🔧 Installation & Setup
+1. **Install Golang**  
+   [Installation Guide](https://go.dev/doc/install)
+2. **Install Fiber Framework**  
+   [Installation Guide](https://docs.gofiber.io/)
+3. **Install GORM**  
+   [Installation Guide](https://gorm.io/)
+4. **Install MySQL**  
+   [Installation Guide](https://dev.mysql.com/downloads/installer/)
+5. **Install Postman** (For API testing)  
    [Download Postman](https://www.postman.com/downloads/)
-6. **Clone repository**
+6. **Clone the repository**  
    ```sh
    git clone https://github.com/Reannn22/evermos_internship_ecommerce.git
    cd evermos_internship_ecommerce
    ```
-7. **Buat file .env** berdasarkan konfigurasi yang diperlukan:
+7. **Create a .env file** based on the required configuration:
    ```sh
    cp .env.example .env
    ```
-8. **Jalankan aplikasi dengan Docker**
+8. **Run the application with Docker**
    ```sh
    docker-compose up --build
    ```
-9. **Jalankan secara lokal** (tanpa Docker):
+9. **Run the application locally** (without Docker):
    ```sh
    go run main.go
    ```
 
 ## 📌 API Endpoints
-Dokumentasi lengkap tersedia di folder `/docs`. Berikut adalah daftar dokumentasi API:
+Complete documentation is available in the `/docs` folder. Below is the list of available API documentation:
 
 - [Addresses API](https://github.com/Reannn22/evermos_internship_ecommerce/blob/main/docs/Addresses_API.md)
 - [Categories API](https://github.com/Reannn22/evermos_internship_ecommerce/blob/main/docs/Categories_API.md)
@@ -86,5 +86,6 @@ Dokumentasi lengkap tersedia di folder `/docs`. Berikut adalah daftar dokumentas
 - [Transactions API](https://github.com/Reannn22/evermos_internship_ecommerce/blob/main/docs/Transactions_API.md)
 - [Users API](https://github.com/Reannn22/evermos_internship_ecommerce/blob/main/docs/Users_API.md)
 
-## 📜 Lisensi
-Proyek ini dilisensikan di bawah **GPL-3.0**. Silakan lihat file `LICENSE` untuk detailnya.
+## 📜 License
+This project is licensed under the **GPL-3.0**. Please refer to the `LICENSE` file for details.
+
