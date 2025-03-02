@@ -1,5 +1,5 @@
 # Evermos Internship E-Commerce
-![E-Commerce API Diagram](https://github.com/user-attachments/assets/f3f5d81f-065c-4256-89e6-935076b630bf)
+![E-Commerce API Diagram](https://github.com/user-attachments/assets/abd0a736-0538-4657-8a87-cbde94d368c9)
 
 ## 📌 Project Description
 Evermos Internship E-Commerce is a project developed as part of the internship program at Evermos. This project aims to build an efficient e-commerce system with a **Golang**-based backend. This repository contains various core components of the system, including database models, API endpoints, middleware, and other essential services.
