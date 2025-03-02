@@ -86,6 +86,17 @@ Complete documentation is available in the `/docs` folder. Below is the list of 
 - [Transactions API](https://github.com/Reannn22/evermos_internship_ecommerce/blob/main/docs/Transactions_API.md)
 - [Users API](https://github.com/Reannn22/evermos_internship_ecommerce/blob/main/docs/Users_API.md)
 
-## 📜 License
-This project is licensed under the **GPL-3.0**. Please refer to the `LICENSE` file for details.
+## License
 
+This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.
+
+You may obtain a copy of the license at:
+
+[Evermos Internship E-Commerce License](https://github.com/Reannn22/evermos_internship_ecommerce/blob/main/LICENSE)
+
+### Summary
+- You are free to use, modify, and distribute this project under the terms of the GPL-3.0 license.
+- Any modifications or derivative works must also be licensed under GPL-3.0.
+- This project is provided "as-is" without any warranties.
+
+For the full license text, please refer to the link above.
