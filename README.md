@@ -1,4 +1,5 @@
 # Evermos Internship E-Commerce
+![Uploading API Diagram.drawio.png…]()
 
 ## 📌 Deskripsi Proyek
 Evermos Internship E-Commerce adalah proyek yang dikembangkan sebagai bagian dari program internship di Evermos. Proyek ini bertujuan untuk membangun sistem e-commerce yang efisien dengan backend berbasis **Golang**. Repository ini berisi berbagai komponen utama dari sistem, termasuk model database, API endpoints, middleware, dan layanan lainnya.
