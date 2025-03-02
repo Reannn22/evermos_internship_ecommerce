@@ -42,7 +42,7 @@ Evermos Internship E-Commerce adalah proyek yang dikembangkan sebagai bagian dar
    [Panduan Instalasi](https://docs.gofiber.io/)
 3. **Install GORM**
    [Panduan Instalasi](https://gorm.io/)
-4. **Install MySQL/MariaDB**
+4. **Install MySQL**
    [Panduan Instalasi](https://dev.mysql.com/downloads/installer/)
 5. **Install Postman** (Untuk uji API)
    [Download Postman](https://www.postman.com/downloads/)
