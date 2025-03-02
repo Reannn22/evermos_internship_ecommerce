@@ -87,7 +87,3 @@ Dokumentasi lengkap tersedia di folder `/docs`. Berikut adalah daftar dokumentas
 
 ## 📜 Lisensi
 Proyek ini dilisensikan di bawah **GPL-3.0**. Silakan lihat file `LICENSE` untuk detailnya.
-
----
-Jika ada pertanyaan atau saran, silakan ajukan **Issue** atau **Pull Request** di repository ini. 🚀
-
